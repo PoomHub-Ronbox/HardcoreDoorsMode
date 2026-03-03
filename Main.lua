@@ -9,7 +9,7 @@ task.wait(1)
 
 task.spawn(function()
     local success, err = pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/PoomHub-Ronbox/Sprinter/refs/heads/main/Main.tx"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PoomHub-Ronbox/Sprinter/refs/heads/main/Main.txt"))()
     end)
     if not success then warn("Script 2 Error: " .. tostring(err)) end
 end)
